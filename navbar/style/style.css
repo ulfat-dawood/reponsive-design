@@ -37,6 +37,9 @@ nav ul {
   line-height: 60px;
   margin: 0 50px;
   text-align: right;
+  right: -100%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 nav li {
@@ -66,6 +69,12 @@ label.checkbox {
     margin: 0;
     top: 60px;
     background: #dbdbdb;
+  }
+  nav li {
+    display: block;
+  }
+  #check:checked ~ ul {
+    right: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

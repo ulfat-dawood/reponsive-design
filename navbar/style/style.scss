@@ -33,6 +33,8 @@ nav{
      line-height: 60px;
      margin:0 50px; 
      text-align: right;
+     right: -100%; 
+     transition: all .5s ease-out; 
 
 
  }
@@ -64,5 +66,13 @@ nav{
         top:60px; 
         background: #dbdbdb;
     }
+    nav li{
+        display: block;
+    }
+
+    #check:checked ~ ul{
+        right: 0;
+    }
+
  }
 
