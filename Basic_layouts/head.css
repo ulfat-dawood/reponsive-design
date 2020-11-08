@@ -1,0 +1,11 @@
+
+.logo{
+float:right; }
+
+nav ul{
+    float: right; 
+}
+
+nav ul li{
+    display: inline-block; 
+}
