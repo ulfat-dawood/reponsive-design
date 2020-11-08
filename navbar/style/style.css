@@ -5,6 +5,7 @@
           box-sizing: content-box;
   list-style: none;
   text-decoration: none;
+  color: #505050;
 }
 
 html {
@@ -15,5 +16,29 @@ body {
   font-family: 'Lato', sans-serif;
   background: #F8F8F8;
   font-size: 3rem;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background: white;
+  -webkit-box-shadow: 0 3px 10px 1px #dbdbdb;
+          box-shadow: 0 3px 10px 1px #dbdbdb;
+}
+
+.logo {
+  float: left;
+  line-height: 60px;
+  padding: 0 50px;
+}
+
+nav ul {
+  float: right;
+  line-height: 60px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 20px;
 }
 /*# sourceMappingURL=style.css.map */
