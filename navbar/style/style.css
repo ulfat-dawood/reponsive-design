@@ -29,16 +29,43 @@ nav {
 .logo {
   float: left;
   line-height: 60px;
-  padding: 0 50px;
+  padding-left: 50px;
 }
 
 nav ul {
   float: right;
   line-height: 60px;
+  margin: 0 50px;
+  text-align: right;
 }
 
 nav li {
   display: inline-block;
   margin: 0 20px;
+}
+
+label.checkbox {
+  line-height: 60px;
+  float: right;
+  margin: 0 10px;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  label.checkbox {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    top: 60px;
+    background: #dbdbdb;
+  }
 }
 /*# sourceMappingURL=style.css.map */
